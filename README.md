@@ -1,27 +1,72 @@
-# SimpleBlog
+# Simple blog app
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
+A Simple Blog App that you can create, get, edit and delete posts.
+It's been made with Angular, Angular CLI, Angular material, Express, Node and Mongodb.
 
-## Development server
+### Getting Started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-## Code scaffolding
+### Prerequisites
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+What things you need to install the software and how to install them
 
-## Build
+[Node - Click to download](https://nodejs.org/en/)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+[Angular CLI](https://cli.angular.io/)
 
-## Running unit tests
+To use this app, you need to use a Mongo Db client for storing your blog's data.
+We use Mongodb atlas in this repository, but you can use whatever you want.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+In the backend folder there is an app.js file. In this file your mongo db client URI goes here
 
-## Running end-to-end tests
+``` javascript
+// Your mongodb uri goes here
+const uri = "";
+```
+#### Downloading this repository
+Download this repo using the ```git clone``` command:
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+```
+> git clone https://github.com/Rphmelo/Simple-Blog.git
+```
 
-## Further help
+### Installing
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+A step by step series of examples that tell you how to get a development env running
+
+Install the dependencies
+
+```
+npm install
+```
+
+After installing the dependencies, the given command will run the app:
+
+```
+npm start
+```
+You can access the app at http://localhost:4200/
+
+```
+npm run start:server
+```
+Will run the backend
+
+
+## Built With
+
+* [Angular](https://angular.io/)
+* [Angular Material](https://material.angular.io/) 
+* [Mongodb Atlas](https://www.mongodb.com/cloud/atlas)
+* [Mongoose](https://www.npmjs.com/package/mongoose)
+* [Nodejs](https://nodejs.org/en/)
+* [Expressjs](https://expressjs.com/pt-br/)
+
+## Authors
+
+* **Raphael de Melo Silva** - *Initial work* - [Rphmelo](https://github.com/Rphmelo)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
