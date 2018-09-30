@@ -13,7 +13,7 @@ const options = {
   useNewUrlParser: true
 }
 
-const uri = "mongodb+srv://rphmelo:tmxZPDTi16FmjZOq@mean-course-vdmkl.mongodb.net/test?retryWrites=true";
+const uri = "";
 
 console.log("Connecting... Wait a moment");
 
